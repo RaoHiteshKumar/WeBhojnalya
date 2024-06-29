@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* login.css */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+	font-family: 'Arial', sans-serif;
+    background-color: #283035;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login Container Styling */
+.login-container {
+    background: #354249;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center; /* Center-align text for mobile screens */
+}
+
+.login-container h2 {
+    color: #C72931;
+    margin-bottom: 20px;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container label {
+	color:#ffffff;
+    margin-bottom: 5px;
+    text-align: left; /* Align labels to the left */
+}
+
+.login-container input {
+	color:#ffffff;
+	background-color: transparent;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #283035;
+    border-radius: 5px;
+}
+
+.login-container button {
+	font-size:22px;
+    background-color: #C72931;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #e82b09;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+    .login-container label {
+        text-align: center; /* Center-align labels for mobile screens */
+    }
+}

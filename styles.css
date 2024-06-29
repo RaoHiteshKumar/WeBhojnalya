@@ -1,0 +1,136 @@
+/* styles.css */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background: #C72931;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border: none;
+}
+
+header h1 {
+    margin: 0;
+}
+.one{
+	position: absolute;
+  top: 65px;
+  right: 10px;
+  padding:8px 8px 8px 8px;
+  
+}
+button a{
+	color:#ffffff;
+}
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #C72931;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Menu Item Styling */
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.menu-item h3 {
+    margin-bottom: 5px;
+    color: #303A40;
+}
+
+.menu-item p {
+    margin: 0 0 10px;
+}
+
+/* Button Styling */
+button {
+	font-size:25px;
+    background-color: #283035;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 1100px; /* This aligns the button to the right */
+	
+}
+
+button:hover {
+    background-color: #354249;
+}
+
+/* Footer Styling */
+footer {
+    background: #C72931;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
